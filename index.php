@@ -2,7 +2,7 @@
 
 require 'vendor/autoload.php';
 
-$transport = (new Swift_SmtpTransport('mail.roshdana.i-gh.ir', 465))
+$transport = (new Swift_SmtpTransport('mail.roshdana.i-gh.ir', 587))
     ->setUsername('info@roshdana.i-gh.ir')
     ->setPassword('ZPMR@YHFs}z&');
 
